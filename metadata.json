@@ -1,0 +1,6 @@
+{
+  "name": "Gimnasio El Alto",
+  "description": "El gimnasio donde todos son bienvenidos en El Alto. Musculación, cardio, clases grupales, duchas con agua caliente y planes accesibles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
