@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Flame, MessageCircle, MapPin, Clock, CheckCircle2, ChevronRight, Shield, Sparkles } from 'lucide-react';
 import { GYM_INFO } from '../data/gymData';
-
+import gymHero from '../assets/images/gym_hero_facility_1790991293678.jpg';
 export const Hero: React.FC = () => {
   const [selectedLocation, setSelectedLocation] = useState<'ceja' | 'satelite'>('ceja');
 
@@ -143,7 +143,7 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden clean-featured-shadow border-4 border-white bg-slate-900 group">
               <img
-                src="/src/assets/images/gym_hero_facility_1790991293678.jpg"
+src={gymHero}
                 alt="Instalaciones modernas de Gimnasio El Alto con máquinas de cardio y fuerza"
                 referrerPolicy="no-referrer"
                 className="w-full h-[380px] sm:h-[460px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
